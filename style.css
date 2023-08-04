@@ -5,10 +5,10 @@
 
 
 :root {
-    --font-heading: crimson;
+    --font-heading: rgb(145, 83, 29);
     --para-font: #777777;
     --black: #222222;
-    --bg: rgba(237, 28, 70);
+    --bg:  rgb(145, 83, 29);
     --white: #fff;
 }
 
@@ -78,7 +78,7 @@ nav .links a:after {
     content: '';
     width: 0%;
     height: 2px;
-    background: var(--bg);
+    background: var(--white);
     position: absolute;
     left: 0;
     bottom: -12px;
@@ -134,6 +134,9 @@ nav #close {
     transform: translate(0px, -3px);
 }
 
+#about .btn:hover {
+    background: transparent;
+}
 
 .nav-change {
     background: rgba(0, 0, 0, 0.9);
