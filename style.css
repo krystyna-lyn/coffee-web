@@ -228,7 +228,7 @@ nav #close {
     height: auto;
     overflow: hidden;
     position: relative;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 .blog .container .post .blog-img img {
@@ -448,7 +448,7 @@ nav #close {
 }
 
 .contact .container .contact-box:hover {
-    background: #c19c68;
+    background: #2f1810;
     color: var(--white);
 }
 
